@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ejercicio1</string>
+    <string name="clic">Haz clic aqui</string>
+    <string name="apagado">Apagado</string>
+    <string name="fuente_serif">Fuente Serif</string>
+    <string name="texto_plano">Texto Plano</string>
+    <string name="negrita">Negrita</string>
+    <string name="cursiva">Cursiva</string>
+    <string name="todo">TODO</string>
+    <string name="moto">Esto es un moto</string>
+    <string name="encedido">Encedido</string>
+    <string name="pedir">Escribe aqui</string>
+    <string name="confirmar_seleccion">CONFIRMAR SELECCIÓN</string>
+    <string name="android">Android</string>
+    <string name="iphone">iPhone</string>
+    <string name="opcion1">Opción 1</string>
+    <string name="opcion2">Opción 2</string>
+</resources>

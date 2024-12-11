@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="@string/clic"
+        android:backgroundTint="@color/grey"
+        tools:ignore="MissingConstraints"
+        tools:layout="2dp" />
+
+    <ToggleButton
+        android:id="@+id/button2"
+        android:layout_width="125dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/grey"
+        android:textColor="#B0BEC5"
+        android:textOff="@string/apagado"
+        android:textOn="@string/encedido"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <ImageButton
+        android:id="@+id/button3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:contentDescription="@string/todo"
+        android:padding="3dp"
+        android:backgroundTint="@color/grey"
+        android:src="@drawable/cuadrado"
+        android:scaleType="centerInside"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="308dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/texto_plano"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="60dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fuente_serif"
+        android:textSize="25sp"
+        android:typeface="serif"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="90dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/negrita"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="120dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cursiva"
+        android:textSize="40sp"
+        android:textStyle="italic"
+        android:textColor="@color/red"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="150dp"
+        tools:ignore="MissingConstraints" />
+
+
+    <ImageView
+        android:layout_width="399dp"
+        android:layout_height="211dp"
+        android:contentDescription="@string/moto"
+        android:src="@drawable/moto"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="200dp"
+        app:layout_constraintVertical_bias="0.392"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/input_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:backgroundTint="@color/design_default_color_primary_variant"
+        android:hint="@string/pedir"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:padding="10dp"
+        android:textColorHint="#78909C"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints,VisualLintTextFieldSize"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="425dp" />
+
+    <CheckBox
+        android:id="@+id/check_android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/android"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="475dp"/>
+
+    <CheckBox
+        android:id="@+id/check_iphone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/iphone"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="515dp"/>
+
+    <RadioButton
+        android:id="@+id/radio_option1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/opcion1"
+        tools:ignore="DuplicateClickableBoundsCheck,DuplicateClickableBoundsCheck,MissingConstraints"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="560dp"/>
+
+    <RadioButton
+        android:id="@+id/radio_option2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/opcion2"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="600dp"/>
+
+    <Button
+        android:id="@+id/button_confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/confirmar_seleccion"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="200dp"
+        tools:layout_editor_absoluteY="560dp"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
